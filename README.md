@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We're revisiting our School Interface project from before, but now our goal will be to take in data from csv files and present them on webpages using Django. Normally, we'd be using databases with Django, however we're not ready for that just yet!
+We're revisiting our School Interface project from before, but now our goal will be to take in data from json files and present them on webpages using Django. Normally, we'd be using databases with Django, however we're not ready for that just yet!
 
 We've provided you with some starter code from our old School Interface project, which already has our classes and data reading logic implemented. You will have to create a Django project from scratch, move some code around, add in some views, templating, and routing logic to eventually produce a website to present our data. We will not be writing (creating/updating/deleting) any new data for this project.
 
@@ -112,7 +112,7 @@ You can delete the original 'classes' folder after this.
 
 ### Data
 
-The `data` folder, which contains our csv files should remain where they are (to have this work more seemlessly with the provided code). Keep in mind that we normally would be using databases to store our data when using Django, but for now we're stuck with using CSV data files. 
+The `data` folder, which contains our json files should remain where they are (to have this work more seemlessly with the provided code). Keep in mind that we normally would be using databases to store our data when using Django, but for now we're stuck with using json data files. 
 
 
 ## 3. Create Views
